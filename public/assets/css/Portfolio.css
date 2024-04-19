@@ -1,0 +1,91 @@
+body{
+    font-family: "Kanit", sans-serif;
+}
+
+/* Contenedor de todo el body */
+
+.contenedor-principal {
+    background-color: white;
+    
+ }
+
+/* Barra de navegacion */
+
+ .navbar {
+    background-color: white;
+ }
+
+ /* Seccion principal */
+
+.principal{
+    background-color: rgb(247, 247, 247);
+    align-items: center;
+    height: 400px;
+    
+}
+
+.nombre {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    color: #ffa500;
+
+  }
+
+.saludo {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+  }
+
+  .man{
+    max-height: 350px;
+    filter:brightness(1.1);
+    mix-blend-mode:multiply;
+    padding-top: 30px;
+  }
+  
+  .bi{
+    font-size: 30px;
+    margin-right: 6px;
+  }
+
+  .card { margin-top: 5px;}
+
+
+  @media (max-width: 766px) {
+
+    .principal{
+      height: 100%;  
+   }  
+
+   .titulos{
+    text-align: center;
+   }
+  }
+
+  footer{
+    margin-bottom: 10px;
+  }
+
+/*Proyectos*/
+
+.seccion-proyectos{
+  background-color: rgb(247, 247, 247);
+}
+
+#descargarPortfolio{
+  background-color: orange;
+}
+
+.btnproject{
+  background-color: orange;
+}
+
+#btnOrange{
+  background-color: orange;
+}
+
+
+
+
